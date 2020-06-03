@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/jkithome/dapr-chat-app-client/issues"
   },
-  "homepage": "https://github.com/jkithome/dapr-chat-app-client#readme"
+  "homepage": "https://github.com/jkithome/dapr-chat-app-client#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
 }
