@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client": "cd client && yarn start",
+    "start": "node server.js",
+    "buildclient": "cd client && npm install && npm run build",
+    "buildandstart": "npm run buildclient && npm install && npm run start"
   },
   "repository": {
     "type": "git",
